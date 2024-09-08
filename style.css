@@ -1,0 +1,47 @@
+*{
+  margin: auto;
+}
+
+.logo{
+    background-color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    color: white
+}
+
+ul{
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
+.section1{
+    display: flex;
+    padding: 40px;
+    color: white;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    gap: 16px;
+}
+
+header, .section1{
+    background-color: #1F2937;
+}
+
+#signup1{
+    background-color: #3882F6;
+    border-radius: 4%;
+    padding: 8px;
+    align-self: flex-end;
+    color: white;
+    border: 0cm;
+    width: 100px;
+}
