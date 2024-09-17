@@ -13,6 +13,23 @@ header{
     color: white
 }
 
+h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937
+}
+
+li, h4{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 ul{
     display: flex;
     gap: 16px;
@@ -28,7 +45,7 @@ ul{
 .hero{
     display: flex;
     flex-direction: column;
-    width: 350px;
+    width: 400px;
     gap: 16px;
 }
 
@@ -39,9 +56,80 @@ header, .section1{
 #signup1{
     background-color: #3882F6;
     border-radius: 4%;
+    border: 3px solid white;
     padding: 8px;
-    align-self: flex-end;
     color: white;
-    border: 0cm;
     width: 100px;
+}
+
+.section2{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+h2{
+    padding: 40px;
+}
+.images{
+    display: flex;
+    gap: 20px;
+}
+
+.info{
+    height: 150px;
+    width: 170px;
+    border: 3px solid #3882F6;
+    border-radius: 5%;
+}
+
+.author{
+    font-weight:bold;
+}
+
+.section3{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    gap: 16px;
+}
+
+.randomtext{
+    width: 600px;
+}
+
+#signup2{
+    background-color: #3882F6;
+    border-radius: 4%;
+    border: 3px solid white;
+    padding: 8px;
+    color: white;
+    width: 100px;
+}
+
+.section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.callToAction{
+    background-color: #3882F6;
+    width: 800px;
+    height: 100px;
+    display: flex;
+}
+
+.section4text{
+    color: white;
+}
+
+
+footer{
+    background-color: #1F2937;
+    height: 100px;
+    display: flex;
 }
